@@ -1,0 +1,21 @@
+[project]
+name = "conversation-concierge"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dotenv>=0.9.9",
+    "langchain>=0.3.27",
+    "langchain-community>=0.3.29",
+    "langchain-core>=0.3.75",
+    "langchain-google-genai>=2.1.10",
+    "langgraph>=0.6.7",
+    "rich>=14.1.0",
+    "streamlit>=1.49.1",
+    "faiss-cpu>=1.7.4",
+    "langchain-text-splitters>=0.3.0",
+    "pyowm>=3.5.0",
+    "pypdf2>=3.0.1",
+    "pymupdf>=1.26.4",
+]
